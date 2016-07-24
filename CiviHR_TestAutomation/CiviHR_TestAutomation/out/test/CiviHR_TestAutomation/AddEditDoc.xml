@@ -1,0 +1,30 @@
+<suite name="AddEditDoc">
+    <test name="Add Document">
+
+
+        <classes>
+
+            <class name="AddDocuments">
+                <methods>
+                    <include name="AddDocs"/>
+                </methods>>
+            </class>
+        </classes>
+
+    </test>
+
+    <test name="Edit Document">
+
+
+        <classes>
+
+            <class name="EditDocuments">
+                <methods>
+                    <include name="EditDoc"/>
+                </methods>>
+            </class>
+        </classes>
+
+    </test>
+</suite>
+
