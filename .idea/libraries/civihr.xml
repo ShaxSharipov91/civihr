@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="civihr">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/selenium-java-2.53.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/selenium-server-standalone-2.53.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
