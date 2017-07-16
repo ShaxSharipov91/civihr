@@ -4,7 +4,7 @@
 
         <classes>
 
-            <class name="AddDocuments">
+            <class name="testPack.AddDocuments">
                 <methods>
                     <include name="AddDocs"/>
                 </methods>>
@@ -18,7 +18,7 @@
 
         <classes>
 
-            <class name="EditDocuments">
+            <class name="testPack.EditDocuments">
                 <methods>
                     <include name="EditDoc"/>
                 </methods>>

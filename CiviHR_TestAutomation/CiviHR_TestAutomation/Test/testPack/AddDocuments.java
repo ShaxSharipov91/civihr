@@ -1,6 +1,9 @@
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.firefox.internal.ProfilesIni;
+package testPack;
+
+import civihr.AddDocument;
+import civihr.BaseTestPages;
+import civihr.LoginPage;
+import civihr.Navigate;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
