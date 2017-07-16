@@ -1,5 +1,6 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 
 /**
@@ -9,6 +10,7 @@ public class BaseTestPages {
     public static WebDriver driverInstance;
 
     public BaseTestPages(){
+        System.setProperty("webdriver.gecko.driver", "/Users/shax/Desktop/geckodriver");
         driverInstance = new FirefoxDriver();
 
     }

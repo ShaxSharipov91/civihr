@@ -22,7 +22,7 @@ public class Login extends BaseTestPages {
 
         //Verify you're in Dashboard
         String actualTitle = driverInstance.getTitle();
-        String expectedTitle = "Dashboard | CiviHR 1.5 Demo";
+        String expectedTitle = "Dashboard | CiviHR staging site";
         Assert.assertEquals(actualTitle, expectedTitle);
 
     }
